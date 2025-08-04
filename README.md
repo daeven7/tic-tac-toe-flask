@@ -2,7 +2,7 @@
 
 ##  Architecture
 
-- **Flask API** - Game logic and AI moves
+- **Flask API** - Wrapper for the tic-tac-toe engine
 - **Node.js Backend** - Authentication, game sessions, and user management
 - **React Frontend** - Web interface
 - **React Native App** - Mobile interface
@@ -13,7 +13,7 @@
 
 ```bash
 # Clone the Flask repository
-git clone https://github.com/daeven7/tic-tac-toe-flask
+git clone https://github.com/daeven7/tic-tac-toe-flask.git
 
 # Create a virtual environment
 python -m venv .venv
@@ -64,7 +64,7 @@ The Node.js server will run on `http://localhost:3000`
 
 ```bash
 # Clone the Frontend repository
-https://github.com/daeven7/tic-tac-toe-frontend.git
+git clone https://github.com/daeven7/tic-tac-toe-frontend.git
 
 # Install dependencies
 npm install
@@ -88,7 +88,7 @@ The React frontend will run on `http://localhost:5173/`
 
 ```bash
 # Clone the react-native repository
-https://github.com/daeven7/tic-tac-toe-native.git
+git clone https://github.com/daeven7/tic-tac-toe-native.git
 
 # Install dependencies
 npm install
